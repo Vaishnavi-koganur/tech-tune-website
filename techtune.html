@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./techtune.css">
+    
+<script>
+function opa()
+    {
+        document.getElementById("ho").style.opacity="0.5";
+    }
+        function nrmlImg()
+    {
+        document.getElementById("ho").style.opacity="1.0";
+    }
+
+    function opa1()
+    {
+        document.getElementById("ho1").style.opacity="0.5";
+    }
+    
+    
+    function nrmlImg1()
+    {
+        document.getElementById("ho1").style.opacity="1.0";
+    }
+
+    function opa2()
+    {
+        document.getElementById("ho2").style.opacity="0.5";
+    }
+    
+    
+    function nrmlImg2()
+    {
+        document.getElementById("ho2").style.opacity="1.0";
+    }
+    
+           
+
+
+function dblFunc(){
+    document.getElementById("readmore").style.display="none";
+   
+}
+
+ function clr(elmnt,clr){
+    elmnt.style.color=clr;
+    }
+
+    function fapr(){
+    // document.getElementById("hide").style.display="none";
+    
+    document.getElementById("falilities").innerHTML="<strong>What is the concept of snooker? </strong><br><br>"
+    }
+
+    function fun_sub(){
+                    alert("The form has been submitted successfully");
+                }
+                function fun_res(){
+                    alert("The form has been reset");
+                }
+                function fun_foc(){
+                    document.getElementById("name").style.backgroundColor="yellow";
+                }
+                function fun_blur(){
+                    document.getElementById("lname").style.backgroundColor="red";  
+                }
+                function fun_ch(){
+                 document.getElementById("demo").innerHTML="Date value is changed";
+                }
+                function fun_sel(){
+                    alert("Following text has been selected");
+                }
+        
+        
+                function validateform(){
+                        var name = document.myform.name.value;
+                        var password = document.myform.password.value;
+                        var cpassword = document.myform.cpassword.value;
+                        var phone=document.myform.phone.value;
+                    if(name == null || name == "")
+                    {
+                        alert("Name can't be blank");
+                        return false;
+                    }
+                    else if(password == cpassword)
+                    {
+                        return true;
+                    }
+                    else{
+                        alert("Passwords must be same");
+                        return false;
+                    }
+                    if(password.length!=6){
+                        alert("Password must contain 6 characters");
+                        return false;
+                    }
+                    if(phone.length!=10){
+                        alert("Phone number should contain 10 digits");
+                        return false;
+                    }
+        
+                    }
+
+    
+</script>
+
+</head>
+
+<body>
+    <header>
+        <h3>WELLCOME TO TECHTUNE MOTORS:</h3>
+
+        <h1 class="header-txt"> RajaRajeshwari Nagar</h1>
+    </header>
+
+    
+    <div class="h3text">
+        <a href="techtune.html">Home</a>
+        <a href="facilities.html">Facilities & prices </a>
+        <!-- <a href="member.html">Membership</a> -->
+        <a href="contact.html">Contact</a>
+        <a href="find.html">Find us</a>
+    </div>
+    </div>
+    <img class="imgcent" src="https://images.jdmagicbox.com/comp/bangalore/q5/080pxx80.xx80.180411171602.g7q5/catalogue/tech-tune-motors-rajarajeshwari-nagar-bangalore-car-repair-services-nissan-po1rqbv9ei.jpg?clr=#412525" id="ho3"  opacity="1.0"; height="0%" width="100%">
+    <div class="para">
+  <p onmousedown="clr(this,'white')" onmouseup="clr(this,'black')"> 
+   <hr> Land Mark: 
+         Near Shooting Circle
+         <hr>
+         <br><br>
+         <hr>
+    Payment/ Cards Accepted
+         Cash, Credit Card, Debit Card, Net Banking, PAYTM
+         <hr>
+<br><br>
+
+   <hr> Timings
+         
+    Working Days/ Holidays
+   <h5> Sunday: 10 AM To 8 PM</h5>
+    <h5>Monday: 9 AM To 8 PM</h5>
+    <h5>Tuesday: 9 AM To 8 PM	</h5>
+    <h5>Wednesday: 9 AM To 8 Pm</h5>
+    <h5>Thursday: 9 AM To 8 PM</h5>
+	<h5>Friday: 9 AM To 8 PM </h5>  
+     <h5>Saturday: 9 AM To 8 PM</h5> <hr></p></div>
+    
+
+    <div class="3rows">
+<img class="pad" id="ho" src="data:image/png;base64,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" height="25%" width="25%" onmouseover="opa()" onmouseout="nrmlImg()" opacity="1.0";>
+
+
+<img  class="pad" id="ho1"onmouseover="opa1()" onmouseout="nrmlImg1()" src="https://content.jdmagicbox.com/comp/bangalore/q5/080pxx80.xx80.180411171602.g7q5/catalogue/tech-tune-motors-bangalore-rhorheehtv-250.jpg" alt="" height="7%" width="23%" opacity="1.0";>
+
+
+<img  class="pad" id="ho2"src="data:image/jpeg;base64,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"  height="8%" width="23%" onmouseover="opa2()" onmouseout="nrmlImg2()" opacity="1.0";>
+    </div>
+
+    
+        <div class="align">
+            <button class="pad1" onclick="faciPr()" id="facilities">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facilities and prices</button>
+
+            <button class="pad1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Membership</button>
+
+            <button class="pad1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find Us</button>
+        </div>
+
+<div class="alignitems">
+<p class="items">Mode of Payment :<br>
+    Cash, Master Card, Visa Card, Debit Cards, Credit Card</p>
+<div class="items1">
+<p>Be member of a techtune to receive discounts on each service</p></div>
+   
+<p class="items1">
+    Tech Tune Motors :
+    
+    No 161, 5th Phase Sachidhananda Nagar, Rajarajeshwari Nagar, Bangalore - 560098 (Near Double Road Essar Petrol Bunk</p></div>
+
+<p id="facilities"></p>
+
+<!-- form -->
+
+
+     <div class="color">
+        <br><br>
+            
+        
+<br><br><br><br><br><br><br>
+<footer>
+    <p>&copy; 2023 Snooker Club. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
